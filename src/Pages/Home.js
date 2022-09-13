@@ -53,7 +53,7 @@ const Home = () => {
                     class="fa-solid fa-money-bill-transfer"
                     style={{ fontSize: "350%", color: "orange" }}
                   ></i>
-                  <br /> <br /> Send Mon
+                  <br /> <br /> Send Money
                 </button>
               </Link>
               <Link to="/profile">

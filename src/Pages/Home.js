@@ -46,14 +46,14 @@ const Home = () => {
           </div>
           <div className={styles.seconddiv}>
             <p className={styles.favorite}>My Favorites</p>
-            <div>
+            <div className={styles.flex}>
               <Link to="/transfer">
                 <button className={styles.bigbutton}>
                   <i
                     class="fa-solid fa-money-bill-transfer"
                     style={{ fontSize: "350%", color: "orange" }}
                   ></i>
-                  <br /> <br /> Send Money
+                  <br /> <br /> Send Mon
                 </button>
               </Link>
               <Link to="/profile">

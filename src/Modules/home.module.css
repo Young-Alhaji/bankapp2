@@ -49,7 +49,6 @@
   background-color: #080710;
   border: none;
   font-weight: bold;
-  margin-left: 7%;
 }
 .bigbutton:hover {
   color: rgb(192, 2, 135);
@@ -61,6 +60,11 @@
 .img {
   border-radius: 5px;
   width: 30%;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 1140px) {
@@ -92,7 +96,6 @@
     background-color: #080710;
     border: none;
     font-weight: bold;
-    margin-left: 5%;
   }
   .img {
     border-radius: 5px;

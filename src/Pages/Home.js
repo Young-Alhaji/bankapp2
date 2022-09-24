@@ -25,7 +25,7 @@ const Home = () => {
                   Balance <br />
                   <p className={styles.amount}>#{allUsers[i].balance}</p> <br />
                   Account Number <br />
-                  <p>{allUsers[i].accountNumber}</p> <br />
+                  <p>{allUsers[i].accountNumber}</p>
                   <Link to="/fundaccount">
                     <button className={styles.button1}>Fund Account</button>
                   </Link>
